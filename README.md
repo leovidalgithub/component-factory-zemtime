@@ -10,3 +10,8 @@ At the begining in the project exists 2 components: **ia-comp-header** and **ia-
 For new components must use a hard link *(for windows users view [mklink command](https://technet.microsoft.com/es-es/library/cc753194(v=ws.10).aspx))* to "copy" the component's sources, and then must add the component to the declarations' area in the **app.mpodule.ts** file.
 
 When the component has been injected, then we need to run `npm start` for view the component run correctly.
+
+```bash
+windows
+mklink /d sass d:\zemsania\git\ia-comp-sidebar\sass\
+```
